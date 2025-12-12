@@ -1,0 +1,6 @@
+<resources>
+    <string name="action_setting">Setting</string>
+
+    <string name="reminder">Enter Your name </string>
+    <string name="app_name">Relative Layout</string>
+ </resources>
