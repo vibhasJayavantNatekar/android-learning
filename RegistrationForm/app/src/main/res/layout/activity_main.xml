@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#E91E1E"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:hint="@string/placeholderUser"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et1"
+        android:layout_marginTop="10dp"
+        android:hint="@string/placeholderPass"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="237dp"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="10dp"
+        android:hint="@string/placeholderEmail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="303dp"/>
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_marginTop="10dp"
+        android:hint="@string/placeholderMob"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="370dp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/submit"
+            android:textAllCaps="true"
+            android:textColor="#3E363D"
+            android:background="#4DDAE9E1"
+
+            />
+
+
+
+
+</RelativeLayout>

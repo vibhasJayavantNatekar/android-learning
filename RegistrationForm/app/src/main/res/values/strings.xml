@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string name="placeholderUser">Enter a  username</string>
+    <string name="placeholderPass">Enter a password</string>
+    <string name="placeholderEmail">Enter a Email</string>
+    <string name="placeholderMob">Enter a Phone</string>
+    <string name="submit">Submit</string>
+
+</resources>

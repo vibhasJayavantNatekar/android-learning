@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:id="@+id/tv1"
+            android:layout_width="100dp"
+            android:layout_height="58dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:layout_column="1"
+            android:layout_span="4"
+            android:textSize="34sp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="100dp"
+            android:layout_height="58dp"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="@string/Label1"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_span="2" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView android:id="@+id/tv3"
+            android:layout_width="100dp"
+            android:layout_height="58dp"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="@string/Label2"
+            android:textSize="24sp" />
+
+        <EditText android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_column="3"
+            android:layout_gravity="center"
+            android:layout_span="2"/>
+
+
+    </TableRow>
+
+    <TableRow  android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText android:id="@+id/et3"
+            android:layout_width="100dp"
+            android:height="58dp"
+            android:layout_column="1"
+            android:gravity="center"
+            android:layout_span="4"
+            android:textSize="24sp"/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button android:id="@+id/b1"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_column="1"
+            android:onClick="sum"
+            android:text="@string/plusbtn"
+            android:textSize="24sp"
+            android:layout_margin="20dp"/>
+
+        <Button android:id="@+id/b2"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_column="2"
+            android:onClick="sub"
+            android:text="@string/minusbtn"
+            android:textSize="24sp"
+            android:layout_margin="20dp"
+
+
+            />
+
+        <Button android:id="@+id/b3"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_column="3"
+            android:onClick="mul"
+            android:text="@string/multibtn"
+            android:textSize="24sp"
+            android:layout_margin="20dp"/>
+
+        <Button android:id="@+id/b4"
+            android:layout_width="60dp"
+            android:layout_height="58dp"
+            android:layout_column="4"
+            android:onClick="div"
+            android:text="@string/divbtn"
+            android:layout_margin="20dp"
+            />
+
+    </TableRow>
+
+</TableLayout>
+

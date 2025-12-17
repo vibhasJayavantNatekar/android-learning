@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Label1">Enter 1st value.</string>
+    <string name="Label2">Enter 2nd value.</string>
+    <string name="plusbtn">+</string>
+
+    <string name="minusbtn">-</string>
+    <string name="multibtn">*</string>
+    <string name="divbtn">/</string>
+
+</resources>
